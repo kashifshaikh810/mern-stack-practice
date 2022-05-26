@@ -1,5 +1,76 @@
-.App {
+.nav-ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav-ul {
+  padding: 5px;
+  margin: 0;
+  background-color: skyblue;
+}
+
+.nav-ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  background-color: skyblue;
+  width: 100%;
   text-align: center;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register,
+.product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  float: left;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.register-heading,
+.add-product {
+  margin-left: 5%;
+}
+
+.input-box {
+  display: block;
+  padding: 7px;
+  display: flex;
+  border: 1px solid skyblue;
+  width: 300px;
+  margin: 20px;
+}
+
+.app-button {
+  margin: 20px;
+  width: 150px;
+  padding: 10px;
+  background-color: skyblue;
+  border: solid 1px;
+  cursor: pointer;
 }
 
 .App-logo {
